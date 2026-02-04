@@ -49,9 +49,9 @@ const Contact = () => {
           <div className="grid md:grid-cols-3 gap-8">
             {/* Contact Information */}
             <div className="md:col-span-1 space-y-6">
-              <Card className="bg-[#0F0F10] border-slate-800 p-6 hover:border-slate-700 transition-colors duration-300">
+              <Card className="bg-white/5 backdrop-blur-md border-white/10 p-6 hover:border-white/20 transition-colors duration-300">
                 <div className="flex items-start gap-4">
-                  <div className="p-2 rounded-lg bg-slate-800/50">
+                  <div className="p-2 rounded-lg bg-white/10">
                     <Mail className="text-blue-400" size={20} />
                   </div>
                   <div>
@@ -63,9 +63,9 @@ const Contact = () => {
                 </div>
               </Card>
 
-              <Card className="bg-[#0F0F10] border-slate-800 p-6 hover:border-slate-700 transition-colors duration-300">
+              <Card className="bg-white/5 backdrop-blur-md border-white/10 p-6 hover:border-white/20 transition-colors duration-300">
                 <div className="flex items-start gap-4">
-                  <div className="p-2 rounded-lg bg-slate-800/50">
+                  <div className="p-2 rounded-lg bg-white/10">
                     <Phone className="text-green-400" size={20} />
                   </div>
                   <div>
@@ -77,9 +77,9 @@ const Contact = () => {
                 </div>
               </Card>
 
-              <Card className="bg-[#0F0F10] border-slate-800 p-6 hover:border-slate-700 transition-colors duration-300">
+              <Card className="bg-white/5 backdrop-blur-md border-white/10 p-6 hover:border-white/20 transition-colors duration-300">
                 <div className="flex items-start gap-4">
-                  <div className="p-2 rounded-lg bg-slate-800/50">
+                  <div className="p-2 rounded-lg bg-white/10">
                     <MapPin className="text-orange-400" size={20} />
                   </div>
                   <div>
@@ -109,7 +109,7 @@ const Contact = () => {
 
             {/* Contact Form */}
             <div className="md:col-span-2">
-              <Card className="bg-[#0F0F10] border-slate-800 p-8">
+              <Card className="bg-white/5 backdrop-blur-md border-white/10 p-8">
                 <form onSubmit={handleSubmit} className="space-y-6">
                   <div className="grid md:grid-cols-2 gap-6">
                     <div>
@@ -123,7 +123,7 @@ const Contact = () => {
                         onChange={handleChange}
                         placeholder="Your name"
                         required
-                        className="bg-[#1A1A1B] border-slate-800 text-white placeholder:text-slate-500 focus:border-slate-600"
+                        className="bg-white/5 border-white/10 text-white placeholder:text-slate-400 focus:border-white/30"
                       />
                     </div>
                     <div>
@@ -138,7 +138,7 @@ const Contact = () => {
                         onChange={handleChange}
                         placeholder="your.email@example.com"
                         required
-                        className="bg-[#1A1A1B] border-slate-800 text-white placeholder:text-slate-500 focus:border-slate-600"
+                        className="bg-white/5 border-white/10 text-white placeholder:text-slate-400 focus:border-white/30"
                       />
                     </div>
                   </div>
@@ -154,7 +154,7 @@ const Contact = () => {
                       onChange={handleChange}
                       placeholder="What's this about?"
                       required
-                      className="bg-[#1A1A1B] border-slate-800 text-white placeholder:text-slate-500 focus:border-slate-600"
+                      className="bg-white/5 border-white/10 text-white placeholder:text-slate-400 focus:border-white/30"
                     />
                   </div>
 
@@ -170,7 +170,7 @@ const Contact = () => {
                       placeholder="Tell me about your project or inquiry..."
                       rows={6}
                       required
-                      className="bg-[#1A1A1B] border-slate-800 text-white placeholder:text-slate-500 focus:border-slate-600 resize-none"
+                      className="bg-white/5 border-white/10 text-white placeholder:text-slate-400 focus:border-white/30 resize-none"
                     />
                   </div>
 

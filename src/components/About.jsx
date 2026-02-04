@@ -73,8 +73,8 @@ const About = () => {
 
           {/* Bio */}
           <div className="mb-16">
-            <Card className="bg-[#1A1A1B] border-slate-800 p-8 hover:border-slate-700 transition-colors duration-300">
-              <p className="text-lg text-slate-300 leading-relaxed">
+            <Card className="bg-white/5 backdrop-blur-md border-white/10 p-8 hover:border-white/20 transition-colors duration-300">
+              <p className="text-lg text-slate-100 leading-relaxed">
                 {profileData.bio}
               </p>
             </Card>
@@ -83,9 +83,9 @@ const About = () => {
           {/* Skills Grid */}
           <div className="grid md:grid-cols-2 gap-6">
             {/* Frontend */}
-            <Card className="bg-[#1A1A1B] border-slate-800 p-6 hover:border-slate-700 transition-all duration-300 hover:transform hover:scale-[1.02]">
+            <Card className="bg-white/5 backdrop-blur-md border-white/10 p-6 hover:border-white/20 transition-all duration-300 hover:transform hover:scale-[1.02]">
               <div className="flex items-center gap-3 mb-6">
-                <div className="p-2 rounded-lg bg-slate-800/50">
+                <div className="p-2 rounded-lg bg-white/10">
                   <Layout className="text-blue-400" size={24} />
                 </div>
                 <h3 className="text-xl font-medium text-white">Frontend</h3>
@@ -96,9 +96,9 @@ const About = () => {
             </Card>
 
             {/* Backend */}
-            <Card className="bg-[#1A1A1B] border-slate-800 p-6 hover:border-slate-700 transition-all duration-300 hover:transform hover:scale-[1.02]">
+            <Card className="bg-white/5 backdrop-blur-md border-white/10 p-6 hover:border-white/20 transition-all duration-300 hover:transform hover:scale-[1.02]">
               <div className="flex items-center gap-3 mb-6">
-                <div className="p-2 rounded-lg bg-slate-800/50">
+                <div className="p-2 rounded-lg bg-white/10">
                   <Code2 className="text-green-400" size={24} />
                 </div>
                 <h3 className="text-xl font-medium text-white">Backend</h3>
@@ -109,9 +109,9 @@ const About = () => {
             </Card>
 
             {/* Database */}
-            <Card className="bg-[#1A1A1B] border-slate-800 p-6 hover:border-slate-700 transition-all duration-300 hover:transform hover:scale-[1.02]">
+            <Card className="bg-white/5 backdrop-blur-md border-white/10 p-6 hover:border-white/20 transition-all duration-300 hover:transform hover:scale-[1.02]">
               <div className="flex items-center gap-3 mb-6">
-                <div className="p-2 rounded-lg bg-slate-800/50">
+                <div className="p-2 rounded-lg bg-white/10">
                   <Database className="text-purple-400" size={24} />
                 </div>
                 <h3 className="text-xl font-medium text-white">Database</h3>
@@ -122,9 +122,9 @@ const About = () => {
             </Card>
 
             {/* Tools */}
-            <Card className="bg-[#1A1A1B] border-slate-800 p-6 hover:border-slate-700 transition-all duration-300 hover:transform hover:scale-[1.02]">
+            <Card className="bg-white/5 backdrop-blur-md border-white/10 p-6 hover:border-white/20 transition-all duration-300 hover:transform hover:scale-[1.02]">
               <div className="flex items-center gap-3 mb-6">
-                <div className="p-2 rounded-lg bg-slate-800/50">
+                <div className="p-2 rounded-lg bg-white/10">
                   <Cloud className="text-orange-400" size={24} />
                 </div>
                 <h3 className="text-xl font-medium text-white">Tools & Cloud</h3>

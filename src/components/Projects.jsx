@@ -21,7 +21,7 @@ const ProjectCard = ({ project }) => {
   const featuresList = [];
   for (let i = 0; i < project.features.length; i++) {
     featuresList.push(
-      <li key={`feature-${project.id}-${i}`} className="flex items-start gap-2 text-sm text-slate-300">
+      <li key={`feature-${project.id}-${i}`} className="flex items-start gap-2 text-sm text-slate-200">
         <CheckCircle2 className="text-green-500 mt-0.5 flex-shrink-0" size={16} />
         <span>{project.features[i]}</span>
       </li>
@@ -29,7 +29,7 @@ const ProjectCard = ({ project }) => {
   }
 
   return (
-    <Card className="bg-[#1A1A1B] border-slate-800 overflow-hidden hover:border-slate-700 transition-all duration-300 hover:transform hover:scale-[1.02] group">
+    <Card className="bg-white/5 backdrop-blur-md border-white/10 overflow-hidden hover:border-white/20 transition-all duration-300 hover:transform hover:scale-[1.02] group">
       {/* Project Image */}
       <div className="relative h-56 overflow-hidden bg-slate-900">
         <img 
@@ -43,7 +43,7 @@ const ProjectCard = ({ project }) => {
       {/* Project Content */}
       <div className="p-6">
         <h3 className="text-2xl font-medium text-white mb-3">{project.title}</h3>
-        <p className="text-slate-300 mb-4 leading-relaxed">{project.description}</p>
+        <p className="text-slate-200 mb-4 leading-relaxed">{project.description}</p>
 
         {/* Technologies */}
         <div className="flex flex-wrap gap-2 mb-4">
@@ -52,7 +52,7 @@ const ProjectCard = ({ project }) => {
 
         {/* Features */}
         <div>
-          <h4 className="text-sm font-medium text-slate-400 mb-2">Key Features:</h4>
+          <h4 className="text-sm font-medium text-slate-300 mb-2">Key Features:</h4>
           <ul className="space-y-1">
             {featuresList}
           </ul>

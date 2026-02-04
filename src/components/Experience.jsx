@@ -7,7 +7,7 @@ const ExperienceCard = ({ exp }) => {
   const responsibilities = [];
   for (let i = 0; i < exp.responsibilities.length; i++) {
     responsibilities.push(
-      <li key={`resp-${exp.id}-${i}`} className="flex items-start gap-3 text-slate-300">
+      <li key={`resp-${exp.id}-${i}`} className="flex items-start gap-3 text-slate-200">
         <span className="text-blue-400 mt-1.5">•</span>
         <span>{exp.responsibilities[i]}</span>
       </li>
@@ -15,16 +15,16 @@ const ExperienceCard = ({ exp }) => {
   }
 
   return (
-    <Card className="bg-[#0F0F10] border-slate-800 p-8 hover:border-slate-700 transition-all duration-300 hover:transform hover:translate-x-2">
+    <Card className="bg-white/5 backdrop-blur-md border-white/10 p-8 hover:border-white/20 transition-all duration-300 hover:transform hover:translate-x-2">
       <div className="flex flex-col md:flex-row md:items-start md:justify-between mb-4">
         <div className="flex-1">
           <div className="flex items-start gap-3 mb-2">
-            <div className="p-2 rounded-lg bg-slate-800/50 mt-1">
+            <div className="p-2 rounded-lg bg-white/10 mt-1">
               <Briefcase className="text-blue-400" size={20} />
             </div>
             <div>
               <h3 className="text-2xl font-medium text-white mb-1">{exp.role}</h3>
-              <p className="text-xl text-slate-400">{exp.company}</p>
+              <p className="text-xl text-slate-200">{exp.company}</p>
             </div>
           </div>
         </div>
