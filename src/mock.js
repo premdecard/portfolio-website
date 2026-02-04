@@ -162,6 +162,20 @@ export const projects = [
     ],
     image: "https://images.unsplash.com/photo-1540575467063-178a50c2df87?w=800&q=80",
     link: "#"
+  },
+  {
+    id: 6,
+    title: "Kanhai Technology",
+    description: "Professional corporate website for Kanhai Technology showcasing company services, portfolio, and team. Built with responsive design using modern web technologies, featuring smooth animations and interactive user interface elements.",
+    technologies: ["HTML5", "CSS3", "JavaScript", "Bootstrap"],
+    features: [
+      "Fully responsive design",
+      "Interactive service showcase",
+      "Company portfolio display",
+      "Contact form integration"
+    ],
+    image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&q=80",
+    link: "#"
   }
 ];
 
