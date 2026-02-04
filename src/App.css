@@ -3,8 +3,8 @@ html {
 }
 
 .App {
-    background-color: #0f0f10;
     min-height: 100vh;
+    position: relative;
 }
 
 /* Custom Scrollbar */
@@ -13,14 +13,14 @@ html {
 }
 
 ::-webkit-scrollbar-track {
-    background: #0f0f10;
+    background: rgba(30, 20, 60, 0.5);
 }
 
 ::-webkit-scrollbar-thumb {
-    background: #475569;
+    background: rgba(139, 92, 246, 0.5);
     border-radius: 5px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-    background: #64748b;
+    background: rgba(167, 139, 250, 0.7);
 }
