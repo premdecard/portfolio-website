@@ -33,8 +33,7 @@ export const skills = {
   ],
   database: [
     { name: "SQL Server", level: 85 },
-    { name: "MongoDB", level: 75 },
-    { name: "T-SQL", level: 80 }
+    { name: "MongoDB", level: 75 }
   ],
   tools: [
     { name: "Git", level: 85 },
@@ -42,7 +41,9 @@ export const skills = {
     { name: "Visual Studio", level: 90 },
     { name: "VS Code", level: 88 },
     { name: "Postman", level: 85 },
-    { name: "Docker", level: 70 }
+    { name: "Docker", level: 70 },
+    { name: "Deployment", level: 80 },
+    { name: "Payment Gateway Integration", level: 85 }
   ]
 };
 
@@ -54,11 +55,11 @@ export const experience = [
     duration: "2024 - Present",
     location: "Ahmedabad, India",
     responsibilities: [
-      "Leading development of enterprise applications using Angular and .NET Core",
-      "Architecting and implementing scalable RESTful APIs serving multiple clients",
-      "Mentoring junior developers and conducting comprehensive code reviews",
-      "Optimizing application performance and implementing best practices",
-      "Collaborating with cross-functional teams to deliver high-quality solutions"
+      "Developing full-stack applications using Angular and .NET Core RESTful APIs",
+      "Building and maintaining scalable RESTful web services and microservices",
+      "Creating responsive single-page applications with Angular framework",
+      "Implementing secure authentication and authorization mechanisms",
+      "Collaborating with cross-functional teams to deliver enterprise solutions"
     ]
   },
   {
@@ -131,7 +132,7 @@ export const projects = [
       "Student information management",
       "Multi-state site management with Umbraco"
     ],
-    image: "https://images.unsplash.com/photo-1523050854058-8df90110c9f1?w=800&q=80",
+    image: "https://images.unsplash.com/photo-1427504494785-3a9ca7044f45?w=800&q=80",
     link: "#"
   },
   {
